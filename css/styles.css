@@ -119,15 +119,16 @@ header {
     color:  #55636b;
     transition: 0.2s ease-out;
     margin-bottom: 30px;
+
 }
 
 .italy_title a:hover {
-    font-size: 36px;
-    color:  #55636b;
-    border-bottom: 1px solid #ffe400;
+    color:  #000;
+    border-bottom: 1px solid #ffe400;   
 }
 .italy-img a img:hover {
-transform: scale(1.1)
+    transform: scale(1.1);
+    transition: 0.2s ease-out;  
 }
 /*...........................
 
