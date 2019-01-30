@@ -194,3 +194,29 @@ p.footer_social__icons a:hover {
     background-color: #fff; 
 }
 
+/*...........................
+
+MEDIA
+
+............................*/
+/* при ширине экрана 1160px и менее */
+
+@media (max-width: 1160px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+
+
+
+}
