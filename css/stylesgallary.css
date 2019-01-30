@@ -21,6 +21,7 @@ body, html {
 .container ul {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 0;
 }
 
 .container ul li {

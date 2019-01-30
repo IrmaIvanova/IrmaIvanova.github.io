@@ -10,7 +10,7 @@ FOLDER="."
 WIDTH=2000
 
 # max width
-HEIGHT=4000
+HEIGHT=2000
 
 #resize png or jpg to either height or width, keeps proportions using imagemagick
 #find ${FOLDER} -iname '*.jpg' -o -iname '*.png' -exec convert \{} -verbose -resize $WIDTHx$HEIGHT\> \{} \;
