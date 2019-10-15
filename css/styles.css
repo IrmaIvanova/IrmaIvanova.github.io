@@ -155,25 +155,26 @@ p.footer_name {
     line-height: normal;
 }
 
-p.footer_social {
-    color: #fff;
+.ContactBox{
+    width: 194px;
+    height: 150px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    display: none;
+    background: #1e1e20;
+    border: 2px solid white;
+    top: -180px;
+    position: absolute;
+    border-radius: 6%;
+    box-shadow: -1px 4px 20px 0px black;
+}
+.ContactMe_box{
+    position: relative;
 }
 
-p.footer_social__icons a{
-    color: #fff;
-    font-size: 32px;
-    margin-right: 15px;
-    text-decoration: none;
-    transition: 0.2s ease-out;
-}
-
-p.footer_social__icons a:last-child {
-    margin-right: 0;
-}
-
-p.footer_social__icons a:hover {
-    color: #ffe400;
-}
 
 .button {
     border: 2px solid #fff;
@@ -187,6 +188,7 @@ p.footer_social__icons a:hover {
     letter-spacing: 1.6px;
     margin-bottom: 13px;
     transition: 0.2s ease-out;
+
 }
 
 .button:hover {
@@ -194,6 +196,20 @@ p.footer_social__icons a:hover {
     background-color: #fff; 
 }
 
+.ContactBox a{
+    text-decoration: none;
+    color: #55636b;
+}
+.ContactBox a:active{
+    color: #55636b;
+}
+
+.ContactBox a:hover{
+    color: #fff;
+}
+.ContactItem i{
+    margin-right: 10px;
+}
 /*...........................
 
 MEDIA
