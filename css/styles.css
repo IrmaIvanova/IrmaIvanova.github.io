@@ -60,7 +60,7 @@ header {
     margin-bottom: 20px;
 }
 
-.header_arrow {
+.header_arrow i{
     font-size: 45px;
     position: absolute;
     bottom: 50px;
