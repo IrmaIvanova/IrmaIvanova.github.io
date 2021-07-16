@@ -194,6 +194,7 @@ p.footer_name {
 .button:hover {
     color: #55636b;
     background-color: #fff; 
+    cursor: pointer;
 }
 
 .ContactBox a{
